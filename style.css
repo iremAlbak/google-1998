@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffefe;
+  margin: 0;
+}
+
+#container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 96%;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+.cons {
+  max-width: 600px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container2, .container3, .container4 {
+  max-width: 100px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[name="emailaddr"] {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 80%;
+  font-size: 13px;
+}
+
+input[value="Subscribe"] {
+  width: auto;
+  font-size: 13px;
+}
